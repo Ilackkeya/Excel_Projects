@@ -1,0 +1,38 @@
+Challenge 1:
+
+My solution:
+
+Used MID formula to extract the Region value from the string
+
+Used SUMIFS to calculate region wise sales
+
+Used COUNTIFS to calculate the count of sales met or exceeded the target value of 2,500
+
+Used Bar Chart to plot the Total Sales by Region
+
+Challenge 2: 
+
+My Solution:
+
+Used Power Query editor to format the columns as directed
+
+Used AVERAGE function to calculate the average of response in days
+
+Used COUNTIFS to calculate the No of Level 1 & 2 priority with responses < 5 days
+
+Challenge 3:
+
+My Solution:
+
+Used Power Query editor to import the data files needed for the analysis
+
+Created a new column named 'Region' in all the South_Sales, North_Sales and East_Sales files before appending them into one file.
+
+Merged the Product table and appended table using Left Join with Product Code column. Removed columns not needed for the analysis.
+
+Created a new column named 'Order Size' to categorize the sales into different groups.
+
+Closed and Loaded the transformed data to create Pivot table.
+
+Created 2 Pivot table as instructed from the transformed table summarizing the sales across each category and across different months.
+
