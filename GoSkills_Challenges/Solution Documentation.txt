@@ -1,5 +1,17 @@
 Challenge 1:
 
+The first task is to write a formula in column C that extracts the region code from the ‘Ref’ column.
+
+The region code is the three digits in the middle of the reference.
+
+With this task complete, we then need to do some sales analysis. 
+
+We need to return the total sales for each region, and also calculate how many sales met or exceeded the target value of 2,500.
+
+Then, create a clean and easy to understand column chart of the sales by region data.
+
+You can make any changes that you feel necessary for the chart.
+
 My solution:
 
 Used MID formula to extract the Region value from the string
@@ -12,6 +24,33 @@ Used Bar Chart to plot the Total Sales by Region
 
 Challenge 2: 
 
+You have received a file with resolved issues data.
+
+It contains the following columns:
+
+The area from which the issue was received
+A combined column with the name of the person assigned to the issue and the issue date
+The priority level of the issue
+The number of days that it took to resolve the issue
+
+Unfortunately the data is not in a format that makes it easy to analyze.
+
+There are various problems such as:
+
+The area code is in a row on its own
+The name and date is in a combined column and requires separating
+Some of the names have the incorrect case
+There are average rows and blank rows under each area which we do not need
+The challenge is to use Power Query to transform this data into a format that we can analyze easily.
+
+And then answer a couple of questions about the data.
+
+We want to know:
+
+1. The average response time in days
+
+2. The number of level 1 or level 2 issues that were resolved in less than 5 days
+
 My Solution:
 
 Used Power Query editor to format the columns as directed
@@ -21,6 +60,20 @@ Used AVERAGE function to calculate the average of response in days
 Used COUNTIFS to calculate the No of Level 1 & 2 priority with responses < 5 days
 
 Challenge 3:
+
+The sales-report.xlsx workbook is the one to work from. And the goal of this challenge is to create the following two Pivot Tables
+
+In a workbook named sales-data.xlsx, there are three tables named North_Sales, South_Sales and East_Sales.
+
+We need to import these three tables into sales-report.xlsx and stack them into one list. These are the only three tables we want from that workbook. Exclude everything else.
+
+We then need to combine the two tables to get the product ‘Name’ and ‘Category’ columns into the stacked sales table.
+
+We also need to add a column with the region name (taken from the table name) and also a conditional column with the sales grouped into the following categories: 0-49, 50-99, 100-199 and 200+.
+
+Consider that additional sales tables may be added in the future, such as West_Sales, and the solution should continue to work with this new data when clicking Refresh.
+
+The Pivot Tables can then be created from this sales table.
 
 My Solution:
 
@@ -35,4 +88,53 @@ Created a new column named 'Order Size' to categorize the sales into different g
 Closed and Loaded the transformed data to create Pivot table.
 
 Created 2 Pivot table as instructed from the transformed table summarizing the sales across each category and across different months.
+
+
+Challenge 4:
+
+These are some of the tasks you will need to accomplish to get to the final solution.
+
+Produce a query/table which only includes the students who took both tests. For this example, the students are uniquely identified by using both their first and last names.
+Create a column in the format last name, first name instead of the two name columns.
+Calculate the age in years of each student.
+Fix the Date Joined column which is currently not recognized as a date.
+Include columns for both test scores and create an additional column with the total of both.
+Create a column that displays “Pass” if they achieve a total score of 140 or higher, and “Fail” if they do not.
+
+My Solution:
+
+Launched Power Query Editor and create merge queries to include only students who took both tests using "INNER" join. 
+
+Used Create Column from Example option to create the name in the requested format.
+
+Calculated age using Duration and rounding down features.
+
+Fixed the Date Joined column using Column from Example feature and changed the data type to date.
+
+Created new column to calculate test scores.
+
+Used if statement to create Pass/Fail column using the given condition.
+
+
+Challenge 5:
+
+This challenge consists of 12 different Excel formula problems that require fixing. Each problem is on a different worksheet.
+
+Some formulas are returning incorrect results and others are returning error messages, but why? Do you have what it takes to solve this challenge? 🕵️
+
+This is a useful ‘real world’ challenge for those learning Excel. Formulas do not always go to plan, and we need the skills to fix issues that arise.
+
+If you are already an advanced Excel user, maybe this will not be much of a problem. However, it is good to exercise your formula muscles regularly.
+
+If you do consider yourself an Excel expert, take the difficulty level up a notch by timing yourself to see how quickly you can fix all 12 problems.
+
+
+My Solution:
+
+Documented in Excel
+
+
+
+
+
 
