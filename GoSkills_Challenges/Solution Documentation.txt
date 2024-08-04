@@ -133,6 +133,41 @@ My Solution:
 
 Documented in Excel
 
+Challenge 6:
+
+Here’s the scenario to be solved from the download file:
+
+It’s coming up to the end of the year and there’s a scramble to take vacation days. 
+
+The HR Department wants to prioritize who gets to take vacation first by looking at employee tenure and the number of vacation days each employee has remaining.
+
+If an employee has more than five vacation days remaining, or if they’ve been with the company for three years or more, they’ll get priority. 
+
+Write a formula where the cells in column E will say “Priority” if at least one of these two conditions is met. If neither condition is met, we want this column to display a blank.
+
+HR also wants to query the number of vacation days remaining per department. 
+
+Write a formula in cell B17 which will calculate and display the number of vacation days based on the department selected from the B16 dropdown cell.
+
+My Solution:
+
+Used IF formula and OR function to calculate the request status
+
+Used SUMIF to calculate remaining vacation days for each department
+
+
+Challenge 7: 
+
+The bookstore on the corner has their book database entered in an Excel workbook table. The store owner wants to be able to query a Book ID and extract that entire row from the database.
+
+She also wants to minimize input errors by having employees select the Book ID from a dropdown list in cell A2. She knows how to create dropdown lists, but is having trouble setting up one which expands or contracts dynamically as books are added and removed from the database. 
+
+Once you’ve helped her with that, write a formula in row 5 that uses the selected Book ID to pull the correct row from the Database.
+
+My Solution:
+
+Created Dropdown list from Data validation and used XLOOKUP to retrieve the book info using Book ID
+
 
 
 
