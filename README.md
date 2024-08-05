@@ -5,4 +5,4 @@
 This repo is a work in progress.
 
 
-It has daily commits of my excel data challenges, which I am working on currently
+It has commits of my excel data challenges, which I am working on currently
