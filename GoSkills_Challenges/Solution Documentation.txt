@@ -169,7 +169,43 @@ My Solution:
 Created Dropdown list from Data validation and used XLOOKUP to retrieve the book info using Book ID
 
 
+Challenge 8: 
+
+Here’s how the incentive program works:
+
+Agents can earn a maximum of 5 points per one-month period. 
+
+Attendance percentage is calculated based on the number of days the employee came to work, measured against the number of business days. Agents get 1 point if their attendance is 95 percent or higher, and zero if their attendance is below 95 percent.
+
+Call quality is based on the employee’s quality score as measured by the Quality Assurance Department. Agents get 2 points if they score 100 percent, 1 point if they score between 90 percent and 99 percent, and zero if their call quality is below 90 percent.
+
+Average Daily Sales checks the employee’s total sales against the number of days they came to work. Agents get 2 points if they average 2 or more sales per day, 1 point if they average less than 2 but at least 1 sale, and zero points if their daily sales average is below 1.
+
+On the Incentive worksheet, Column J should have the total points earned, formatted with green icons for 5 points, amber for 4 points, and red for fewer than 4 points. 
+
+Employees with 5 points will get a $100 bonus, and those with 4 points will earn $50.
 
 
+My Solution:
+
+Mapped the attendance %, call quality, average sales into the Incentive sheet using VLOOKUP and XLOOKUP formulas.
+Calculated the points using IF and SUM functions.
+
+Challenge 9: 
+
+The school board has a list of all the schools in the district - from elementary to post-secondary, showing their city or town and population. They got an intern to put all this data together, but he sorted the dataset by the name of the school, which isn’t statistically useful to the Board.
+
+Tasks
+1. What they really want is to sort schools alphabetically by town. Each town should have its schools displayed in the following order:
+
+Elementary > Middle > High > Community College > University.
+Towns that have more than one of the same school type should list the one with the larger population first.
+
+2. In the cells to the right of the data, we want to determine the occupancy percentage (population vs. capacity) of each type of school. Occupancy levels should be shown from lowest to highest, left to right.
+
+
+My Solution:
+
+Sorted through custom sort by creating a list and then used SUMIF function to calculate the occupancy %
 
 
