@@ -208,4 +208,16 @@ My Solution:
 
 Sorted through custom sort by creating a list and then used SUMIF function to calculate the occupancy %
 
+Challenge 10: 
+
+We need to generate two charts from each worksheet - one which shows the new and returning visits by country, and the other which shows the proportion, or percentage, of paid accounts by country. Your manager didn't tell you what type of charts to create - it’s your job to determine the best chart based on the type of data you will be representing.
+
+You’ve decided that since you will need to do this process every three months, you should just create a macro to do it all in one click each time.
+
+The charts should be on the same page as the data they represent, and they should be formatted with proper labels and titles.
+
+Set up your macro, run it for each quarter and your job is done.
+
+
+My Solution:
 
