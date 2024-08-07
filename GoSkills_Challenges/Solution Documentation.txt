@@ -221,3 +221,43 @@ Set up your macro, run it for each quarter and your job is done.
 
 My Solution:
 
+Tried setting up the macros but was running into runtime error and found the issue with wrong sheet getting referenced. 
+After Debugging, I successfully set up my macros and generated charts.
+
+
+
+Challenge 11: 
+
+In the accompanying file, there are four worksheets. The first sheet, Course Options, lists four course Pathways: Arts, Business, Science and Technology, each with seven subjects. 
+
+Each student must choose one Pathway, kind of like a Major. Students have to take seven subjects, but only four subjects have to be from their Pathway. They can select the other three from any of the four program areas.
+
+You need to come up with two things:
+
+Create a Course Selection form on the second worksheet that minimizes or eliminates the possibility of breaking the above rules, and
+Assuming that the Student Selections sheet shows what everyone selected, how would you design the Student Selection Query to allow school administrators to look up a student’s selection by their name?
+
+
+My Solution:
+
+Created a Drop down list to enable course selection and utilized IF AND COUNTA formulas to eliminate errors while selecting the courses.
+Student Query- Included Drop down to select the student name and used VLOOKUP to retrieve student's courses information.
+
+Challenge 12: 
+On the worksheet below we have the top 20 cities in the world in terms of population. In one column we have the city and two-letter country code and in the next column the population in 2021.
+
+You will need to:
+
+Split the city and country data so that they’re in two separate columns.
+Sort the list by country code. Any country that appears more than once in the list should be sorted by city name.
+
+My Solution:
+
+Solutions in excel file:
+
+1. Flash fill using Ctrl+E
+2. Using Text to columns
+3. Using LEFT and RIGHT functions
+4. Using Power Query
+
+
