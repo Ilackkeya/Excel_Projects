@@ -261,3 +261,12 @@ Solutions in excel file:
 4. Using Power Query
 
 
+Challenge 12: 
+
+An online video streaming service has its customer database saved on an Excel worksheet. They want to run a promotion to their customers who have a Basic-level subscription or those who have yahoo email addresses. Can you help them extract those records using Excel filters?
+
+My Solution:
+
+Used FILTER and FIND functions,  and OR (+) operators to filter based on both conditions
+
+
