@@ -261,12 +261,29 @@ Solutions in excel file:
 4. Using Power Query
 
 
-Challenge 12: 
+Challenge 13: 
 
 An online video streaming service has its customer database saved on an Excel worksheet. They want to run a promotion to their customers who have a Basic-level subscription or those who have yahoo email addresses. Can you help them extract those records using Excel filters?
 
 My Solution:
 
 Used FILTER and FIND functions,  and OR (+) operators to filter based on both conditions
+
+Challenge 14:
+
+Here’s the scenario to be solved from the download file:
+
+You run a coffee shop where you receive your supply of coffee from one of three manufacturers, each set up with its own table. Each product is given a product code and an associated price.
+
+The mission
+You want to be able to select a product code from a dropdown list and display the name of the supplier and the price in a way that allows the lists and results to be updated whenever values are added to or removed from the tables.
+
+My Solution:
+
+Merged to a single table and added supplier column and then used VLOOKUP to retrieve the data
+
+Alternative solution: (most preferred)
+
+Use Power Query to create connection between tables and then use XLOOKUP to retrieve the price. Use ISNUMBER, MATCH AND IF functions to retrieve the supplier name.
 
 
