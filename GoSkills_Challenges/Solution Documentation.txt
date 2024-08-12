@@ -286,4 +286,21 @@ Alternative solution: (most preferred)
 
 Use Power Query to create connection between tables and then use XLOOKUP to retrieve the price. Use ISNUMBER, MATCH AND IF functions to retrieve the supplier name.
 
+Challenge 14:
 
+Each expense is listed within a category table, with a "Last Month" vs. "This Month" comparison. So first, we want to find out whether we spent more or less money this month compared with last month and place that in the Difference column.
+
+Since these are expenses, the less we spend, the better.
+
+Tasks
+
+1. Let’s use conditional formatting to visually represent the above. For expenses where we spent less this month, we want the font color in the difference column to be green. If we spent more, let’s make the font color red. And let’s also add traffic light icon sets.
+
+2. Then to finish everything off, we want a chart on the Summary worksheet that summarizes the Last Month and This Month subtotals for each category and generate a bar graph or column chart to visualize the changes between last month and this month.
+
+3. Can you create the graph so that adding a category on the Summary page shows up on the graph?
+
+
+My Solution:
+
+Used Conditional Formatting as directed and created summary of the expenses in a bar graph. 
