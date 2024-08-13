@@ -286,7 +286,7 @@ Alternative solution: (most preferred)
 
 Use Power Query to create connection between tables and then use XLOOKUP to retrieve the price. Use ISNUMBER, MATCH AND IF functions to retrieve the supplier name.
 
-Challenge 14:
+Challenge 15:
 
 Each expense is listed within a category table, with a "Last Month" vs. "This Month" comparison. So first, we want to find out whether we spent more or less money this month compared with last month and place that in the Difference column.
 
@@ -304,3 +304,15 @@ Tasks
 My Solution:
 
 Used Conditional Formatting as directed and created summary of the expenses in a bar graph. 
+
+Challenge 16:
+
+A new internet service provider called “Netpro” ran an Early Bird promotion and got 284 sign-ups. What they need you to do is: 
+
+assign account numbers so that when customers are sorted by last name alphabetically, the first customer has account number 0001, and the last customer has account number 0284.
+create Netpro email addresses for customers who don’t have an email address. The format should be last name and account number @netpro.com (for example, surname0123@netpro.com).
+
+My Solution:
+
+Converted table to range, split Name column into First Name and Last Name and then sorted by last name and created email id using concat function.
+
