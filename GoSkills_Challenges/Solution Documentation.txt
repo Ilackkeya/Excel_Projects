@@ -316,3 +316,21 @@ My Solution:
 
 Converted table to range, split Name column into First Name and Last Name and then sorted by last name and created email id using concat function.
 
+
+Challenge 17:
+
+Here’s the scenario: 
+
+This list of customers has too much detail for the General Manager. He’s more interested in an overview. He wants to be able to view how many customers we have in each country, broken down by basic, standard, and premium subscriptions. 
+
+Tasks🏋️
+You’re the Excel expert in the office, so he wants you to do the following:
+
+Create an interactive chart that summarizes this data.
+The chart should enable the manager to see whatever country or level he is interested in at that moment.
+He would prefer to see Basic, Standard, and Premium, in that order, if you can manage it.
+
+Solution: 
+
+Created Pivot Chart and added slicers to allow interactivity.
+
