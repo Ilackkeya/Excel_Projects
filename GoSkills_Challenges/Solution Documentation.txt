@@ -334,3 +334,21 @@ Solution:
 
 Created Pivot Chart and added slicers to allow interactivity.
 
+Challenge 18:
+
+Here’s the scenario: 
+
+The first table on the worksheet carries a 5-day temperature forecast for seven cities around the world. Next to it is the accompanying outlook for each temperature range.
+
+You need to:
+
+Create dropdown lists for the city and day in the input cells, and 
+Create formulas that will find the forecasted temperature in the first table, and display the outlook that corresponds to that temperature. 
+
+Solution: 
+
+Used VLOOKUP and IFS to solve. 
+
+Alternate solution: 
+
+Considering when a new column is inserted or deleted, using named range in drop down lists are helpful. Employing Index and Match function also works to retrieve the temperature.
