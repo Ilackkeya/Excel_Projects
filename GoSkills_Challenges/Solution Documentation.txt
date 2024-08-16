@@ -352,3 +352,19 @@ Used VLOOKUP and IFS to solve.
 Alternate solution: 
 
 Considering when a new column is inserted or deleted, using named range in drop down lists are helpful. Employing Index and Match function also works to retrieve the temperature.
+
+
+Challenge 18:
+
+Here’s the scenario: 
+
+We have some college applicants applying to get into our Arts, Business, or STEM program. How we treat their application will be based on last term’s performance and their exam average. 
+
+Can you get the "Application Status" column to automatically update based on the rules in the following chart?
+
+
+Solution: 
+
+Used AND, OR and IFs function to specify conditions and evaluate. 
+
+Alternate solution: Use LET, IFS, AND, OR functions
