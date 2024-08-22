@@ -354,7 +354,7 @@ Alternate solution:
 Considering when a new column is inserted or deleted, using named range in drop down lists are helpful. Employing Index and Match function also works to retrieve the temperature.
 
 
-Challenge 18:
+Challenge 19:
 
 Here’s the scenario: 
 
@@ -368,3 +368,18 @@ Solution:
 Used AND, OR and IFs function to specify conditions and evaluate. 
 
 Alternate solution: Use LET, IFS, AND, OR functions
+
+
+Challenge 20:
+
+Employees who have 10 or more years with the company on September 30 will be considered "vested" for an extra pension benefit.
+
+Calculate each employee's number of years with the company.
+Write a formula that will show "Vested" in Column E for those who qualify.
+Sort the list by job title so that all the Associates are listed first, followed by Team Leads, then Senior Managers.
+Only display vested employees.
+
+
+Solution: 
+
+Used DATEDIF function to calculate tenure and then used IF function to identify vested employees.
