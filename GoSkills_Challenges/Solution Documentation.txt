@@ -383,3 +383,35 @@ Only display vested employees.
 Solution: 
 
 Used DATEDIF function to calculate tenure and then used IF function to identify vested employees.
+
+Challenge 21:
+
+Here’s the scenario: 
+
+Our business has 22 suppliers of various products and services. In this table, the monthly expense amounts are shown, and column B shows the Payment Terms we’ve agreed to.
+
+This information is all very useful, but sometimes it’s overwhelming when you only want to look at expenses in a particular category. For example, what if we only wanted to see:
+
+suppliers who invoiced us in June, or
+suppliers who require payment in advance (PIA)?
+What about combining more than one criteria?
+
+Solution: 
+
+Create a Pivot table to observe the data at your convenience.
+
+Or
+
+Use Power Query to transform data and add slicers to work with it.
+
+Challenge 22:
+
+Here’s the scenario: 
+
+We want our graph only to show sales for the three most recent months. Can you create a dynamic chart range so that when a new month is added, the chart updates itself by reporting on the last three months in the data set? Notice that the chart title also changes automatically.
+
+Solution: 
+
+
+Use OFFSET to create dynamic arrays.
+
