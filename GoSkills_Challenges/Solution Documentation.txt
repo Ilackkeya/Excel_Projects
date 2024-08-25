@@ -415,3 +415,17 @@ Solution:
 
 Use OFFSET to create dynamic arrays.
 
+
+Challenge 23:
+
+To summarize:
+
+What method(s) can we use to identify the top 5 agents based on their Quality Score?
+How do you handle when we have more than 5 agents with the top 5 scores?
+
+Solution: 
+
+Use Sort and Filter, LARGE, RANK, RANK.EQ and RANK.AVG, FILTER, SORT 
+functions to identify the top 5 agents.
+
+To account tie breakers, depending on the policy, use custom sort to include the second level of criteria to identify the top n agents.
