@@ -429,3 +429,17 @@ Use Sort and Filter, LARGE, RANK, RANK.EQ and RANK.AVG, FILTER, SORT
 functions to identify the top 5 agents.
 
 To account tie breakers, depending on the policy, use custom sort to include the second level of criteria to identify the top n agents.
+
+
+Challenge 24:
+
+The tasks 🏋️
+
+Extract the list of countries that have hosted an Olympic game only once, and from that list:
+Return the name of the host city.
+Return the year in which the games were held.
+Indicate whether the games were held in Summer or Winter.
+
+Solution: 
+
+Used UNIQUE to extract the countries and XLOOKUP to fetch host city and year. And finally, created a new column to fetch the season and used XLOOKUP to fetch the season from that column.
