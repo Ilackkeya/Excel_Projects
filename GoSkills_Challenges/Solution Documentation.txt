@@ -443,3 +443,25 @@ Indicate whether the games were held in Summer or Winter.
 Solution: 
 
 Used UNIQUE to extract the countries and XLOOKUP to fetch host city and year. And finally, created a new column to fetch the season and used XLOOKUP to fetch the season from that column.
+
+
+Challenge 25:
+
+The task 🏋️
+We'll need you to use your knowledge of Excel dates to extract the tasks that started in the year 2022. But look out! All is not as it seems!
+
+At a glance, this may appear to be quite simple, but taking on this challenge may involve several steps since some of these dates are not correctly formatted in Excel.
+
+Solution:
+Use "Text to Columns" to convert to date format and filtered the data to extract the start dates with year 2022.
+
+
+
+
+
+
+
+
+
+
+
