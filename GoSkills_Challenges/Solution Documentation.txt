@@ -455,10 +455,24 @@ At a glance, this may appear to be quite simple, but taking on this challenge ma
 Solution:
 Use "Text to Columns" to convert to date format and filtered the data to extract the start dates with year 2022.
 
+Challenge 26:
 
+Here’s the scenario to be solved from the download file:
 
+The Sales Manager has contacted the HR Department requesting a list of all employees in the Sales Team and their salaries. He’s looking to conduct a pay review and wants to ensure employees in his team are being competitively compensated. 
 
+It’s our job as the HR Manager to extract the salaries for the members of the Sales Team and send them on to the Sales Manager. 
 
+However, we have a challenge! John Smith is a very common name. In fact, there are three employees called John Smith in the list. 
+
+When we use VLOOKUP, it returns the wrong result. Our challenge is to think about how we might extend the capabilities of VLOOKUP to achieve the correct result. 
+
+The task🏋️
+Write a formula in Column K that will look up the “Employee” in column I in the table and return the correct result. 
+
+Solution:
+
+Create a helper column by merging Name and Job title and use VLOOKUP to extract the desired records.
 
 
 
