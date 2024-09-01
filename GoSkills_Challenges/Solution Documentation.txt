@@ -474,8 +474,47 @@ Solution:
 
 Create a helper column by merging Name and Job title and use VLOOKUP to extract the desired records.
 
+Challenge 27:
 
+The scenario 🖼️
+Here’s the scenario to be solved from the download file:
 
+We want to compile a dataset that we can use to practice our Excel skills. We could download a dataset from a website, but it can take time to find something appropriate. Instead, we are going to build our own using Excel formulas. 
 
+The tasks 🏋️
+The challenge is to complete all empty columns in the dataset. We’ve got you started by listing out the employee names. You need to populate the other columns: Emp_ID, Department, Job_Title, and Salary. 
+
+Start in cell K2 and calculate the number of employees first. 
+
+Emp_ID
+
+This column needs to be populated with the employee ID of the employee. 
+The format of the employee IDs is ‘EMP-XXXX’. 
+The first employee ID should be ‘EMP-2000’. All subsequent employee ids should increment by ‘1’ each time. 
+
+Department
+
+This column needs to be populated with the department of each employee. 
+There are 4 departments: HR, Sales, Marketing, and Finance. 
+Randomly assign a department to each employee using functions. 
+
+Job_Title
+
+This column needs to be populated with the job title of each employee. 
+There are 4 job titles: HR Admin, Sales Agent, Marketing Assistant, and Accountant. 
+The assigned job title should correspond to the employee’s department. 
+
+Salary
+
+This column needs to be populated with the salary of each employee.
+The salary should be between $30,000 and $70,000. 
+We need to ensure that the salary is rounded to the 1000 multiplier. 
+
+Solution:
+
+1) Used SEQUENCE function to increment the employee id by 1 in Emp_ID column. 
+2) Used RANDBETWEEN and CHOOSE to randomly assign the Department.
+3) Used IFS function to place the job role based on the department
+4) Used MROUND & RANDBETWEEN to choose the salary range in 1000 multiplier.
 
 
