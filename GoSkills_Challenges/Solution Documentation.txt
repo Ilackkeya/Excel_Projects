@@ -518,3 +518,40 @@ Solution:
 4) Used MROUND & RANDBETWEEN to choose the salary range in 1000 multiplier.
 
 
+Challenge 28:
+
+Here’s the scenario to be solved from the download file:
+
+Every month the Sales Team logs their actual sales in an Excel spreadsheet. The Sales Team Manager would like to visualize how sales are performing against the monthly sales target of $2000. 
+
+Tasks
+It’s our job to create a clustered column chart with the following features:
+
+The actual sales should be represented by columns, but the sales target value should be represented as a line. 
+The chart should be conditional, i.e., the columns should change color depending on if they have met the sales target or not. 
+The chart should update when the sales target value is changed in cell C2. 
+The challenge is to create a chart that meets the above criteria. 
+
+Would you like to test your knowledge further? Try to set the chart up so the columns in the data table can be hidden, but the chart data remains visible. 
+
+
+Solution:
+
+
+Create additional columns to gather data where the sales target was met, not met and target value. Create a column chart using these three columns in different series and customize the target column to a line type. 
+Check the "Use data in hidden rows and columns" in the select data option of the chart and hide the additional columns created to build this chart.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
