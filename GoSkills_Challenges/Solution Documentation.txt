@@ -543,11 +543,27 @@ Check the "Use data in hidden rows and columns" in the select data option of the
 
 
 
+Challenge 29:
 
+Here’s the scenario to be solved from the download file:
 
+Our students have asked us to create a template they can use to track progress on their assignments. 
 
+They would like to be able to check a box when they have completed an assignment and see a visual representation in the form of a progress bar that shows the % of all assignments complete. 
 
+It’s our job to create a progress bar that updates depending on the number of checkboxes that have been checked with the following features:
 
+Each checkbox should link to a cell.
+The TRUE or FALSE output should be hidden from view.
+The progress bar only needs to show the % of assignments complete.
+The progress bar should remain visible when the calculations table is hidden.
+
+Solution:
+
+Insert checkbox from developer tab. 
+Right click and format control to link the cell with check box.
+Create calculated columns to track progress if a work is done or not.
+Calculate the percentage of progress and use that value to create bar chart and customize it to display progress. 
 
 
 
